@@ -1,8 +1,4 @@
-@media all and (max-width:1500){
-h1{
-background-color: aqua;
 
-}}
 a:link{color:cadetblue}
 a:visited{color:yellowgreen;}
 
@@ -17,3 +13,9 @@ div{
     border: 15px inset blueviolet;
     border-radius: 3em;
 }
+
+@media all and (max-width:2500){
+    h1{
+    background-color: aqua;
+    
+    }}
