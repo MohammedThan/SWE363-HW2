@@ -1,0 +1,41 @@
+.myborder{
+    
+    border-radius: 10px;
+    background-color:#F0F0F0 ;
+    color: #a4a400; 
+    border: 3px solid #73ad21;
+    text-align: center;
+    padding: 15px;
+    /* margin: 15px; */
+    max-width: 600px;
+    width: 450px;
+}
+
+@media all and (min-width:768px){
+    .borderLine1{
+        border-right: 2px solid #a4a400;
+    
+    }
+    .borderLine3{
+        border-right: 2px solid #a4a400;
+    
+    }
+    
+}
+
+@media all and (min-width:1200px){
+    .borderLine1{
+        border-right: 2px solid #a4a400;
+    }
+    .borderLine2{
+        border-right: 2px solid #a4a400;
+    }
+    .borderLine3{
+        border-right: 2px none red;
+    }
+}
+body  {
+    background-image: url("silverware.jpg");
+  }
+
+
