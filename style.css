@@ -1,0 +1,15 @@
+
+a:link{color:cadetblue}
+a:visited{color:yellowgreen;}
+
+a:hover{color: red;
+cursor:progress;}
+
+
+div{
+    background-color: aqua;
+    padding: auto;
+    margin: 0px,50px,0px,500px;
+    border: 15px inset blueviolet;
+    border-radius: 3em;
+}
