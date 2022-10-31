@@ -1,6 +1,5 @@
 .myForm{
     max-width:600px ;
-    align: center;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +14,6 @@ a:visited{
 }
 
 .myBtn{
-    align: center;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +21,6 @@ a:visited{
 
 .signupForm{
     max-width: 300px;
-    align: center;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +29,6 @@ a:visited{
 dd
 {
     max-width:600px ;
-    align: center;
     width: auto;
     margin-left: auto;
     margin-right: auto;
