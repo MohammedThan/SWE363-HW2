@@ -45,9 +45,7 @@ dd
     
 }
 
-.mygrid{
-    display: grid;   
-}
+
 
 .myflex{
     column-count: 3;
@@ -58,9 +56,6 @@ dd
         text-align: start;
     }
 
-    .mygrid{
-        grid-template-columns: 1;
-    }
 
     .mydiv{
         column-count: 1;
@@ -87,9 +82,7 @@ dd
     
     }
    
-    .mygrid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  
     .mydiv{
         column-count: 2;
         column-rule: 2px solid #73ad21;
@@ -118,15 +111,8 @@ dd
     .borderLine3{
         border-right: 2px none red;
     }
-    .mygrid{
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 1024px;
-    }
-   
-    #targeea {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
+    
     .mydiv{
         column-count: 3;
         column-rule: 2px solid #a4a400;
