@@ -6,6 +6,10 @@
     margin-right: auto;
 }
 
+.myfont{
+    font-family: "Segoe UI";
+}
+
 a:visited{
     color:#a4a400
 }
