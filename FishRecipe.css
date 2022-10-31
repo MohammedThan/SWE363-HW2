@@ -1,3 +1,40 @@
+.myForm{
+    max-width:600px ;
+    align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:visited{
+    color:#a4a400
+}
+
+.myBtn{
+    align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signupForm{
+    max-width: 300px;
+    align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dd
+{
+    max-width:600px ;
+    align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffa8;
+}
+
 .myborder{
     
     border-radius: 30px;
@@ -8,8 +45,12 @@
     
 }
 
-.mydiv{
+.mygrid{
     display: grid;   
+}
+
+.myflex{
+    column-count: 3;
 }
 
 @media all and (max-width:768px){
@@ -17,9 +58,14 @@
         text-align: start;
     }
 
-    .mydiv{
+    .mygrid{
         grid-template-columns: 1;
     }
+
+    .mydiv{
+        column-count: 1;
+    }
+    
     
     .borderL{
         border-left: 2px none #a4a400;
@@ -41,8 +87,12 @@
     
     }
    
-    .mydiv{
+    .mygrid{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .mydiv{
+        column-count: 2;
+        column-rule: 2px solid #73ad21;
     }
     .mytext{
         text-align: center;
@@ -68,7 +118,7 @@
     .borderLine3{
         border-right: 2px none red;
     }
-    .mydiv{
+    .mygrid{
         grid-template-columns: repeat(2, 1fr);
         max-width: 1024px;
     }
@@ -76,6 +126,11 @@
     #targeea {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .mydiv{
+        column-count: 3;
+        column-rule: 2px solid #a4a400;
+
     }
 }
 body  {
@@ -93,9 +148,8 @@ body  {
 
 }
 
-.myil{
+ul{
     list-style-image: url(fish_icon_24.png);
 }
-
 
 
